@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<style>
+    *{
+        margin-bottom: 20px;
+        margin-top: 2px;
+        padding: 0px;
+    }
+    nav ul li{
+        display: inline;
+        padding: 10px;
+        text-decoration: none;   
+    }
+    nav ul li a{
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    nav ul li a:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #ff960b;
+    text-decoration: none;
+    transition: 0.2s;
+}
+    .container{
+        height: 100px;
+        width:1130px;
+        background-color:rgb(24, 23, 23);
+        margin-bottom: 0px;
+    }
+    nav{
+        padding-top:40px;
+        padding-left: 10px;
+    }
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed {
+    margin-top: 10px;
+  background-color:rgb(24, 23, 23);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width:1130;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+.title-i7yYYmGG:hover{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: #ff960b;
+}
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+</style>
+<body>
+    <!--Navigation bar-->
+        <div class="container">
+            <nav>
+        <ul>
+            <li><a href="index.html"><i class="bi bi-house-fill"></i>&nbsp&nbspHome</a></li>
+            <li><a href="crpto.html"><i class="bi bi-currency-bitcoin"></i></i>&nbsp&nbspAbout Cryptocurrency</a></li>
+            <li><a href="buy-crypto.html"><i class="bi bi-bag-fill"></i>&nbsp&nbspBuy Cryptocurrency</a></li>
+            <li><a href="faq.html"><i class="bi bi-question-circle-fill"></i>&nbsp&nbspFAQ</a></li>
+            <li><a href="about.html"><i class="bi bi-file-earmark-person-fill"></i>&nbsp&nbspAbout Us</a></li>
+
+            <li><a href="#"style="display:inline; margin-left:340px;"><i class="bi bi-box-arrow-right"></i>&nbsp&nbspLog In</a></li>
+        </ul>
+    </nav>
+        </div>
+    
+
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget" style="margin-bottom:0px;"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+    {
+    "width": "1130",
+    "height": "600",
+    "defaultColumn": "overview",
+    "screener_type": "crypto_mkt",
+    "displayCurrency": "USD",
+    "colorTheme": "light",
+    "locale": "in"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="header-i7yYYmGG"><h1 class="title-i7yYYmGG" style="text-align: center ;">BRAKING NEWS RELATED TO Cryptocurrency</h1></div>
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+  {
+  "feedMode": "all_symbols",
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "regular",
+  "width": 1130,
+  "height": 830,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+  <!--footer-->
+		<footer class="footer-distributed">
+			<div class="footer-right">
+				<a href="#"><i class="bi bi-facebook"></i></i></a>
+				<a href="#"><i class="bi bi-twitter"></i></a>
+				<a href="#"><i class="bi bi-linkedin"></i></a>
+				<a href="#"><i class="bi bi-google"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Home</a>
+
+					<a href="#">Cryptocurrency</a>
+
+					<a href="#">Buy</a>
+
+					<a href="#">About</a>
+
+					<a href="#">Faq</a>
+
+					<a href="#">Contact</a>
+				</p>
+
+				<p>B.TechWala &copy; 2022</p>
+			</div>
+		</footer>
+    
+</body>
+</html>
